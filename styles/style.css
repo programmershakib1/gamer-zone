@@ -1,0 +1,554 @@
+/* The font family link of Work Sans */
+
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Universal Selector */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+/* body */
+
+body{
+    font-family: "Work Sans", sans-serif;
+}
+
+/* navbar styles start */
+
+.parent-all-content{
+    box-shadow:0 6px 5px rgba(0, 0, 0, 0.1);
+}
+
+.nav-main{
+    max-width:1050px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:1.25rem 0;
+}
+
+.nav-left-content{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    font-size:1.8rem;
+    font-weight:700;
+}
+
+.nav-left-content img{
+   width:25%;
+}
+
+.nav-left-content span{
+    color:rgb(255, 66, 165);
+}
+
+.nav-right-content{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:0;
+}
+
+.nav-btn, 
+.follow{
+    color:rgb(60, 53, 79);
+    font-size:1rem;
+    font-family: "Work Sans", sans-serif;
+    font-weight:500;
+    border:none;
+   background-color:transparent;
+   margin-right:20px;
+}
+
+.nav-btn, 
+.follow:hover{
+    cursor:pointer;
+}
+
+.nav-follow{
+    background-color:rgba(11, 2, 35, 0.1);
+    border-radius:0.5rem;
+    padding:0.7rem 1.1rem;
+}
+
+.follow{
+    margin-bottom:2%;
+}
+
+.follow i{
+    font-size:1.5rem;
+    margin-left:0.5rem;
+}
+
+/* header styles start */
+
+.header-main{
+    max-width:1050px;
+    margin:0 auto;
+    margin-top:4%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.header-left-content{
+    width:40%;
+    border-radius:1rem;
+    padding:1rem;
+    background-image:url("../images/Group\ 14.png");
+    background-position:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+
+.play{
+    color:rgb(11, 2, 35);
+    font-size:3rem;
+    font-weight:600;
+    margin-bottom:2%;
+}
+
+.goat{
+    color:transparent;
+    background-image:linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    background-clip:text;
+    font-size:5.5rem;
+    font-weight:800;
+    margin-bottom:4%;
+}
+
+.header-left-content p{
+    color:rgb(83, 76, 100);
+    font-size:1.25rem;
+    font-weight:500;
+    margin-top:3%;
+}
+
+.header-btn{
+    border:none;
+   padding:1rem 2.4rem;
+    margin-top:7%;
+    color:rgb(255, 255, 255);
+    font-size:1.25rem;
+    font-weight:600;
+}
+
+.header-btn1{
+    border-radius:3rem;
+    background-image:linear-gradient(90deg, rgb(255, 66, 165) 13.134%, rgb(255, 66, 165) 87%);
+    margin-right:4%;
+}
+
+.header-btn2{
+    border-radius:3rem;
+    background-color:rgb(78, 197, 247);
+}
+
+.header-btn:hover{
+    cursor:pointer;
+}
+
+.header-right-content{
+    width:50%;
+}
+
+.header-right-content img{
+    width:100%;
+}
+
+/* Gamer section styles start */
+
+.gamer-section{
+    max-width:1050px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:6%;
+    padding:2rem;
+    border-radius:1rem;
+    background-image:linear-gradient(90deg, rgba(255, 66, 165, 0.03) 13%, rgba(255, 66, 165, 0.03) 87%);
+}
+
+.gamer-image-container{
+   width:55%;
+}
+
+.gamer-image-container img{
+   width:100%;
+}
+
+.gamer-text-content{
+    width:40%;
+    text-align:right;
+}
+
+.gamer-title{
+    color:transparent;
+    font-size:3rem;
+    font-weight:700;
+    background-clip:text;
+    background-image:linear-gradient(180deg, rgb(249, 72, 178), rgb(135, 88, 241));
+}
+
+.gamer-description{
+    color:rgb(83, 76, 100);
+    font-size:1.1rem;
+    font-weight:500;
+    text-align:right;
+    margin-top:4%;
+}
+
+.gamer-btn{
+    color:rgb(255, 255, 255);
+    font-size:1.25rem;
+    font-weight:600;
+    padding:1rem 2.2rem;
+    border:none;
+    border-radius:3rem;
+    background-color:rgb(255, 66, 165);
+    margin-top:5%;
+    cursor:pointer;
+   /* margin-left:54%; */
+}
+
+.purpose-content{
+    margin-top:5%;
+    text-align:right;
+}
+
+.purpose-content span{
+    color:rgb(83, 76, 100);
+    font-size:1.3rem;
+    font-weight:500;
+}
+
+.purpose-content h2{
+    color:rgb(83, 76, 100);
+    font-size:1.4rem;
+    font-weight:800;
+    margin-top:2%;
+}
+
+/* online games section styles start */
+
+.online-games-section{
+    max-width:1050px;
+    margin:0 auto;
+    margin-top:7%;
+}
+
+.online-games-introduction{
+    text-align:center;
+}
+
+.online-games-title{
+    font-size:2.7rem;
+    font-weight:700;
+}
+
+.online-games-title span{
+    color:transparent;
+    background-image:linear-gradient(rgb(249, 72, 178), rgb(135, 88, 241));
+    background-clip:text;
+}
+
+.online-games-description{
+    color:rgb(83, 76, 100);
+    font-size:1rem;
+    font-weight:500;
+    margin-top:2%;
+}
+
+.image-cards-container{
+    max-width:1050px;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:repeat(4, 1fr);
+    gap:13px;
+    margin-top:5%;
+}
+
+.first-image-card, 
+.second-image-card, 
+.third-image-card, 
+.fourth-image-card{
+    width:100%;
+    height:400px;
+    cursor:pointer;
+    position:relative;
+}
+
+.first-image-card img, 
+.second-image-card img, 
+.third-image-card img, 
+.fourth-image-card img{
+    width:100%;
+}
+
+.online-description{
+    margin-top:3%;
+    color:rgb(83, 76, 100);
+    font-size:1rem;
+    font-weight:500;
+}
+
+.watch-now-content{
+    display:none;
+    position:absolute;
+    top:30%;
+    left:30%;
+    text-align:center;
+}
+
+.watch-now-content i{
+   font-size:2.8rem;
+   color:rgb(255, 255, 255);
+   margin-bottom:7%;
+}
+
+.watch{
+    font-size:1.3rem;
+    font-weight:700;
+    color:transparent;
+    background-clip:text;
+    background-image:linear-gradient(90deg, rgb(255, 66, 165), rgb(255, 66, 165));
+}
+
+.first-image-card img:hover+.watch-now-content, 
+.second-image-card img:hover+.watch-now-content, 
+.third-image-card img:hover+.watch-now-content, 
+.fourth-image-card img:hover+.watch-now-content{
+   display:block;
+}
+
+.first-image-card img:hover, 
+.second-image-card img:hover, 
+.third-image-card img:hover, 
+.fourth-image-card img:hover{
+    filter:brightness(50%);
+}
+
+/* Play instantly section styles start */
+
+.play-instantly-section{
+    max-width:1050px;
+    margin:0 auto;
+    margin-top:8%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.play-instantly-text-content{
+    width:35%;
+    margin:0 auto;
+}
+
+.play-title{
+   color:rgb(11, 2, 35);
+   font-size:3rem;
+   font-weight:700;
+}
+
+.play-title #single-select{
+    color:transparent;
+    background-clip:text;
+    background-image:linear-gradient(90deg, rgb(249, 72, 178), rgb(135, 88, 241));
+}
+
+.play-title #installs{
+  margin-left:15%;
+}
+
+.play-description{
+    width:90%;
+    color:rgb(83, 76, 100);
+    font-size:1.1rem;
+    font-weight:500;
+    text-align:center;
+    margin-top:5%;
+}
+
+.play-instantly-image-container{
+    width:50%;
+    position:relative;
+}
+
+.play-image-1 img{
+    width:85%;
+    margin-left:4rem;
+    border-radius:0.5rem;
+}
+
+
+.play-image-2 img{
+    width:40%;
+    position:absolute;
+    left:-6%;
+    bottom:-12%;
+}
+
+/* online anytime section styles start */
+
+.online-anytime-container{
+    max-width:1050px;
+    margin:0 auto;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin-top:12%;
+}
+
+.online-anytime-images-parent{
+    width:50%;
+    position:relative;
+}
+
+.online-anytime-image-1{
+    width:550px;
+    height:460px;
+}
+
+.online-anytime-image-1 img{
+    width:90%;
+    border-radius:0.5rem;
+}
+
+.online-anytime-image-2 img{
+    width:40%;
+    border-radius:0.5rem;
+    position:absolute;
+    right:-11%;
+    bottom:-16%;
+}
+
+.online-anytime-text-parent{
+    width:40%;
+}
+
+.online-anytime-title{
+    color:rgb(11, 2, 35);
+    font-size:3rem;
+    font-weight:700;
+    text-align:left;
+}
+
+.online-anytime-title #play-game{
+    color:transparent;
+    background-clip:text;
+    background-image:linear-gradient(90deg, rgb(249, 72, 178), rgb(135, 88, 241));
+}
+
+.online-anytime-introduction{
+    margin-top:1.6rem;
+    color:rgb(83, 76, 100);
+    font-size:1rem;
+    font-weight:500;
+}
+
+/* footer styles start */
+
+.footer-container{
+    background-color:rgb(11, 2, 35);
+    margin-top:10rem;
+}
+
+.footer-all-content-parent{
+    width:40%;
+    margin:0 auto;
+    padding-bottom:4rem;
+}
+
+.footer-heading{
+    color:rgb(255, 255, 255);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:12px;
+    font-size:1.6rem;
+    font-weight:700;
+    padding-top:3.5rem;
+}
+
+.footer-heading img{
+   width:65px;
+}
+
+.footer-heading span{
+    color:rgb(255, 66, 165);
+}
+
+.footer-nav-items{
+    margin-top:2rem;
+}
+
+#footer-unordered-list{
+    display:flex;
+    justify-content:space-between;
+    gap:15px;
+}
+
+#footer-unordered-list li{
+    list-style:none;
+    color:rgb(255, 255, 255);
+    font-size:1rem;
+    font-weight:600;
+}
+
+#footer-unordered-list li:hover, 
+.footer-icon-content i:hover{
+    cursor:pointer;
+    padding:0.1rem 0.3rem;
+    border:2px solid #222222;
+    border-radius:1rem;
+    background-color:rgba(83, 76, 100, 0.5);
+    backdrop-filter:blur(12px);
+    background-blend-mode:overlay;
+}
+
+.footer-icons{
+    width:60%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:0 auto;
+    margin-top:2rem;
+}
+
+.footer-icon-content{
+    color:rgb(255, 255, 255);
+}
+
+.footer-last-content{
+    width:90%;
+    margin:0 auto;
+    color:rgba(255, 255, 255, 0.6);
+    font-size:0.9rem;
+    font-weight:500;
+    margin-top:3rem;
+}
+
+.footer-last-content ul{
+    display:flex;
+    justify-content:space-around;
+    gap:10px;
+}
+
+.footer-last-content ul li{
+    list-style:none;
+}
+
+.footer-last-content ul li:hover{
+    cursor:pointer;
+}
+
+.copyright{
+    margin-top:1rem;
+    text-align:center;
+}

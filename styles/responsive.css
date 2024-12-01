@@ -1,0 +1,248 @@
+/* Mobile screen responsive start */
+
+@media screen and (max-width:576px){
+    
+    /* navbar responsive start */
+
+    .parent-all-content{
+        box-shadow:none;
+    }
+
+    .nav-main{
+        flex-direction:column;
+    }
+
+    .nav-right-content{
+        margin-top:10%;
+        flex-direction:column;
+        gap:20px;
+    }
+
+    .nav-follow{
+        margin-top:12%;
+    }
+
+    /* header responsive start */
+
+    .header-main{
+        margin-top:8%;
+        flex-direction:column-reverse;
+    }
+
+    .header-left-content{
+        width:85%;
+        margin-top:20%;
+        margin-left:9%;
+    }
+    
+    .play{
+        font-size:2.4rem;
+    }
+    
+    .goat{
+        font-size:4.6rem;
+    }
+
+    .header-left-content p{
+        font-size:1rem;
+    }
+
+    .header-btn{
+        font-size:1rem;
+        padding:0.9rem 2rem;
+    }
+
+    .header-right-content{
+        width:90%;
+    }
+
+    /* Gamer section responsive start */
+
+    .gamer-section{
+        width:95%;
+        margin-top:20%;
+        flex-direction:column;
+    }
+
+    .gamer-image-container{
+        width:100%;
+    }
+
+    .gamer-text-content{
+        width:90%;
+        text-align:center;
+        margin-top:7%;
+    }
+
+    .gamer-title{
+        font-size:2.3rem;
+    }
+
+    .gamer-description{
+        font-size:1rem;
+        text-align:center;
+        margin-top:6%;
+        margin-bottom:2%;
+    }
+
+    .purpose-content{
+        margin-top:12%;
+        text-align:center;
+    }
+
+    .purpose-content h2{
+        font-size:1rem;
+    }
+
+    /* online games responsive start */
+
+    .online-games-section{
+        width:90%;
+        margin-top:12%;
+    }
+
+   .online-games-title{
+    font-size:1.6rem;
+   }
+
+   .online-games-description{
+    font-size:0.65rem;
+   }
+
+   .image-cards-container{
+    width:90%;
+    grid-template-columns:1fr;
+    margin-top:10%;
+    }
+
+    .online-description{
+        text-align:center;
+    }
+
+    .first-image-card, 
+.second-image-card, 
+.third-image-card, 
+.fourth-image-card{
+    width:80%;
+    margin:0 auto;
+    }
+
+    /* Play instantly section responsive start */
+
+    .play-instantly-section{
+        margin-top:10%;
+        flex-direction:column;
+    }
+
+    .play-instantly-text-content{
+        width:80%;
+    }
+
+    .play-title{
+        font-size:2rem;
+        text-align:center;
+        margin-bottom:8%;
+    }
+
+    #installs{
+      margin-right:15%;
+    }
+
+    .play-instantly-image-container{
+        width:80%;
+        margin-top:13%;
+    }
+
+    /* online anytime section responsive start */
+
+    .online-anytime-container{
+        flex-direction:column-reverse;
+        margin-top:6rem;
+    }
+
+    .online-anytime-text-parent{
+        width:80%;
+    }
+
+    .online-anytime-title{
+        font-size:2rem;
+        text-align:center;
+    }
+
+    .online-anytime-introduction{
+        font-size:0.9rem;
+        text-align:center;
+        margin-top:2rem;
+    }
+
+    .online-anytime-images-parent{
+        width:90%;
+        margin-top:3rem;
+    }
+
+    .online-anytime-image-1{
+        width:90%;
+        margin:0 auto;
+    }
+
+    .online-anytime-image-2 img{
+       width:40%;
+       top:34%;
+       right:0;
+    }
+
+    /* footer responsive start */
+
+    .footer-container{
+        margin-top:-3rem;
+    }
+
+    .footer-all-content-parent{
+        width:50%;
+        margin:0 20%;
+    }
+
+    .footer-heading{
+      margin-left:26%;
+    }
+
+    .footer-nav-items{
+        width:260px;
+    }
+
+    #footer-unordered-list{
+        justify-content:center;
+        flex-wrap:wrap;
+        gap:21px;
+    }
+    
+    #footer-unordered-list li{
+        font-size:0.9rem;
+    }
+
+    .footer-icons{
+        width:200px;
+        justify-content:center;
+        column-gap:50px;
+        row-gap:25px;
+        flex-wrap:wrap;
+        margin:3rem 2rem;
+    }
+
+    .footer-last-content{
+        width:265px;
+    }
+
+    .footer-last-content ul{
+        flex-wrap:wrap;
+        font-size:0.8rem;
+        column-gap:35px;
+        row-gap:20px;
+    }
+
+    .copyright{
+        margin:0 auto;
+        margin-top:3rem;
+        font-size:0.8rem;
+    }
+}
